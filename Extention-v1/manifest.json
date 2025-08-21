@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Hacker Terminal",
+  "description": "A matrix-style hacker-themed terminal experience.",
+  "version": "1.0",
+  "author": "m14r41",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}
