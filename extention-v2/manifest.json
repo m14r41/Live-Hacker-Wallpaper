@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Hacker Terminal",
+  "version": "1.0",
+  "description": "Matrix style hacker terminal by m14r41 || Madhurendra",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}

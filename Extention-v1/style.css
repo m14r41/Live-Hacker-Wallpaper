@@ -1,0 +1,122 @@
+html, body {
+  margin: 0; padding: 0;
+  height: 100%;
+  background: black;
+  overflow: hidden;
+  font-family: 'Share Tech Mono', monospace;
+  color: #0f0;
+}
+
+canvas#matrix {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  background: black;
+}
+
+.heading-box {
+  max-width: 720px;
+  margin: 3vh auto 0 auto;
+  padding: 0.8rem 2rem;
+  border: 2px solid #00ff00;
+  border-radius: 8px;
+  background: #001100;
+  box-shadow:
+    0 0 15px #00ff00,
+    0 0 30px #00ff00aa,
+    inset 0 0 20px #00ff0077;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  user-select: none;
+  position: relative;
+  color: #0f0;
+  overflow: hidden;
+}
+
+.heading-box span {
+  display: inline-block;
+  color: #004400;
+  text-shadow:
+    0 0 5px #002200,
+    0 0 10px #004400,
+    0 0 20px #00ff00;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.heading-box span.active {
+  color: #00ff00;
+  text-shadow:
+    0 0 10px #00ff00,
+    0 0 25px #00ff00cc,
+    0 0 40px #00ff00ee,
+    0 0 60px #00ff00ff;
+}
+
+.terminal {
+  position: relative;
+  z-index: 10;
+  max-width: 720px;
+  margin: 2vh auto 8vh auto;
+  padding: 2rem 3rem;
+  background: #001100;
+  border: 2px solid #00ff00;
+  border-radius: 8px;
+  box-shadow:
+    0 0 15px #00ff00,
+    0 0 30px #00ff00aa,
+    inset 0 0 20px #00ff0077;
+  color: #00ff00;
+  font-size: 22px;
+  line-height: 1.5;
+  min-height: 280px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.line {
+  white-space: nowrap;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.tag {
+  font-weight: 900;
+  margin-right: 0.5rem;
+}
+
+.access { color: #00ff99; }
+.role { color: #00bbff; }
+.location { color: #ff33ff; }
+.github { color: #ff6600; }
+
+a {
+  color: #ff6600;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  background-color: #00ff00;
+  margin-left: 3px;
+  animation: blink 1s infinite;
+  vertical-align: bottom;
+}
+
+@keyframes blink {
+  0%, 50% { background-color: #00ff00; }
+  51%, 100% { background-color: transparent; }
+}
+
+#dynamic-lines {
+  font-size: 26px;
+  font-weight: 900;
+  margin-top: 1rem;
+}
