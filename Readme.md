@@ -18,4 +18,14 @@ chrome://extensions/
 ```
 > <img width="782" height="212" alt="image" src="https://github.com/user-attachments/assets/21e08c64-9a72-4cf4-b471-f627cfbf9920" />
 
-> Done : Open tab new to keep change 
+> Done
+
+
+# Add you own details in walpaper 
+
+> Modify the detals here, save
+
+<img width="733" height="277" alt="image" src="https://github.com/user-attachments/assets/3e7bccea-7812-470f-9333-c587d25c3f28" />
+
+> Done
+
