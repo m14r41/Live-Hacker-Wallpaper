@@ -23,7 +23,7 @@ chrome://extensions/
 
 # Add you own details in walpaper 
 
-> Modify the detals here, save
+> Modify the details here and save
 
 <img width="733" height="277" alt="image" src="https://github.com/user-attachments/assets/3e7bccea-7812-470f-9333-c587d25c3f28" />
 
